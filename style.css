@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Slab:wght@100&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+
+*{
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 80%, rgba(0, 0, 0, 0.9) 80% ,rgba(255, 255, 255, 0.5));
+
+}
+/* nav-bar */
+
+.navSection{
+	/* background-color: yellow; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 10%;
+	/* border: 1px solid black; */
+	/* height: 150px; */
+	/* width: 150px; */
+}
+.logo img{
+	/* width: 100%; */
+	width:100px;
+	color: white;
+}
+
+nav{
+	width: 40%;
+	/* border:1px solid black ; */
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	/* color: white; */
+	padding: 1em 0;
+}
+nav li{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+nav li:first-child{
+	color:red;
+}
+nav li:hover{
+	color:red;
+}
+.btns{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	/* border: 1px solid black; */
+}
+.btn{
+	border: 2px solid transparent;
+	/* border: 2px solid black; */
+	text-align: center;
+	border-radius: 2rem;
+	background-image: linear-gradient(#000,#000), radial-gradient(circle at top right,red,white);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.btn a{
+	display: inline-block;
+	text-decoration: none;
+	padding: .5em 1.5em;
+	font-size: 1.2rem;
+}
+
+/* Main-section */
+
+.mainSection{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid white; */
+
+}
+
+.imgContainer{
+	width: 50%;
+	/* border: 1px solid white; */
+}
+.imgContainer img{
+	width: 60%;
+}
+
+.textContainer{
+	width: 40%;
+	/* border: 1px solid white; */
+	padding: 1em;
+}
+.textContainer h1{
+	font-size: 2.5rem;
+}
+.textContainer span{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+}
+.textContainer h4{
+	text-align: center;
+	margin: .5em;
+}
+.textContainer p{
+	margin-bottom: 1em;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+}
+.btnBox{
+	width: 100%;
+	margin-top: 3em;
+}
+/* Social-Icons */
+
+.socialIcons{
+	/* border: 1px solid white; */
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	width: 50%;
+	background-image:linear-gradient(to right,#000,red,#000);
+	padding: .8em 0;
+	text-align: center;
+}
+
+.socialIcons .fab{
+	font-size: 1.5rem;
+	padding-right: 3em;
+}
